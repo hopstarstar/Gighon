@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: telegram-webhook-bot
+    env: docker
+    autoDeploy: true
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      # You can set WEBHOOK_URL manually to https://your-service.onrender.com
+      - key: WEBHOOK_URL
+        sync: false

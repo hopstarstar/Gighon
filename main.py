@@ -4,7 +4,7 @@ import threading
 from flask import Flask, request
 import telebot
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8301751505:AAGMrreQgWuEhDpjA_dmYDP0viNueMJMVE4")
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN env var is required")
 
